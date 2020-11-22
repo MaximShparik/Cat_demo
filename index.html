@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CatShop_by_dre</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+  <header class="header" style="background-image: url(./img/header_bg.png)">
+    <div class="header-dark">
+      <section class="header__content">
+        <nav class="header__nav">
+          <div class="nav__item"><a href="#"><img src="./img/logo.png" alt="logo"></a></div>
+          <div class="nav__item"><a href="#">Main</a></div>
+          <div class="nav__item"><a href="#">Gallery</a></div>
+          <div class="nav__item"><a href="#">News</a></div>
+          <div class="nav__item"><a href="#">Profile</a></div>
+          <div class="nav__item nav__item-mobile"><a href="tel:+544349000000">+544 3490 00000</a><br><p>Звони скорее!</p></div>
+        </nav>
+        <nav class="header__nav-mobile">
+          <div class="nav__item"><a href="#">Main</a></div>
+          <div class="nav__item"><a href="#">Gallery</a></div>
+          <div class="nav__item"><a href="#">News</a></div>
+          <div class="nav__item"><a href="#">Profile</a></div>
+          <div class="nav__item nav__item-mobile"><a href="tel:+544349000000">+544 3490 00000</a><br><p>Звони скорее!</p></div>
+        </nav>
+        <div class="mobile__btn"><img src="./img/leg.svg" alt=""></div>
+        <div class="header__title">Найдено 349 котов</div>
+      </section>
+    </div>
+  </header>
+  <main class="main">
+    <section class="main__content">
+      <nav class="main__nav">
+        <p><b>Сортировать по:</b></p>
+        <p>Цене</p>
+        <p>Возрасту</p>
+      </nav>
+      <div class="main__grid">
+      </div>
+      <div class="main__btn-more">
+        Показать еще 20
+      </div>
+      <div class="main__btn-up"></div>
+      <div class="main__btn-add">Лайк!</div>
+    </section>
+  </main>
+  <footer class="footer">
+    <section class="footer__content">
+      <div class="footer__text">
+        <p class="footer__text-bold">Успей купить!</p>
+        <p class="footer__text-norm">Подпишись и успей словить все акции</p>
+      </div>
+      <div class="footer__feedback">
+        <form class="feedback__btns">
+          <input type="email" class="feedback__input" placeholder="Email" required
+          pattern=".+@+.+.+">
+          <input  type="submit" value="Подписаться" class="feedback__btn">
+        </form>
+        <input class="feedback__checkbox" type="checkbox" id="follow" name="follow">
+        <label class="feedback__label" for="follow">Подписаться на новости</label>
+      </div>
+    </section>
+  </footer>
+  <script src="./js/jq.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</body>
+</html>
